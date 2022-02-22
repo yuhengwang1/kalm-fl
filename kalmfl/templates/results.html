@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Parsing Results</h2>
+
+{% for sentence in data %}
+    <p>{{sentence.id ~ ". " ~ sentence.sentence}}</p>
+    {% if sentence.error_msg is none %}
+        <div class="tab">
+            {% for parse in sentence.parses %}
+            {% set parse_loop = loop %}
+            <button class="tablinks" onclick="showParse(event, {{sentence.id}}, {{parse_loop.index}})">{{parse.frame_name}}</button>
+            {% endfor %}
+        </div>
+        {% for parse in sentence.parses %}
+            {% set parse_loop = loop %}
+            <div id="{{'div_' ~ sentence.id ~ '_' ~ parse_loop.index}}" class="tabcontent">
+                <h3 id="{{'h3_' ~ sentence.id ~ '_' ~ parse_loop.index}}">{{parse.frame_name ~ ": " ~ parse.parse_score}}</h3>
+                <table>
+                    <tr>
+                        <th>Role Name</th>
+                        <th>Role Filler</th>
+                        <th>Gloss</th>
+                        <th>Score</th>
+                    </tr>
+                    {% for role in parse.roles %}
+                        {% set role_loop = loop %}
+                        <tr>
+                            <td>{{role.role_name}}</td>
+                            <td>{{role.filler}}</td>
+                            <td>
+                                {% set select_id = 'select_' ~ sentence.id ~ '_' ~ parse_loop.index ~ '_' ~ role_loop.index %}
+                                <select id="{{select_id}}"
+                                        onchange="changeData({{parse}}, this.id, {{sentence.id}}, {{parse_loop.index}}, {{role_loop.index}})">
+                                    {% for synset in role.synsets %}
+                                        {% set synset_loop = loop %}
+                                        <option value="{{synset_loop.index}}">{{synset.gloss}}</option>
+                                    {% endfor %}
+                                </select>
+                            </td>
+                            <td id="{{'td_score_' ~ sentence.id ~ '_' ~ parse_loop.index ~ '_' ~ role_loop.index}}">{{role.synsets[0].score}}</td>
+                        </tr>
+                    {% endfor %}
+                    <tr>
+                        <td id="{{'tr_ulr_' ~ sentence.id ~ '_' ~ parse_loop.index}}" colspan="4" >
+                            {% autoescape false %}
+                            {{parse.ulr | replace(". ", ".<br/>")}}
+                            {% endautoescape %}
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        {% endfor %}
+    {% else %}
+        <table>
+            <tr>
+              <th>No parses!</th>
+            </tr>
+            {% for template in sentence.error_msg %}
+                {% set template_loop = loop %}
+                <tr>
+                    <td>{{template_loop.index ~ ". " ~ template}}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% endif %}
+{% endfor %}
+
+<script>
+function showParse(evt, sent_id, parse_id) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById("div_" + sent_id + "_" + parse_id).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+function changeData(parse, select_id, sentence_idx, parse_idx, role_idx) {
+  var synset_idx = document.getElementById(select_id).value - 1;
+  var td_id = select_id.replace("select", "td_score");
+  document.getElementById(td_id).innerHTML = parse["roles"][role_idx-1]["synsets"][synset_idx]["score"];
+
+  var tot = 0;
+  var prefix = "id_";
+  var ulr = "frame(" + prefix + 1 + ", " + parse["frame_name"] + ").<br/>";
+  var roles = parse["roles"];
+
+  for (var i = 0; i < roles.length; i++) {
+    role_idx = i + 1;
+    var select_id = "select_" + sentence_idx + "_" + parse_idx + "_" + role_idx;
+    var td_id = select_id.replace("select", "td_score");
+    tot = tot + parseFloat(document.getElementById(td_id).innerHTML);
+    var synset_idx = document.getElementById(select_id).value - 1;
+    var count = i + 2;
+    ulr += "role(" + prefix + 1 + ", " + roles[i]["role_name"] + ", " + prefix + count + ").<br/>";
+    ulr += "synset(" + prefix + count + ", " + roles[i]["synsets"][synset_idx]["synset"] + ").<br/>";
+    ulr += "text(" + prefix + count + ", " + roles[i]["filler"] + ").<br/>";
+  }
+  tot = tot / parse["roles"].length * parse["coefficient"];
+  var h3_id = "h3_" + sentence_idx + "_" + parse_idx;
+  document.getElementById(h3_id).innerHTML = parse["frame_name"] + ": " + tot.toString();
+  var tr_id = "tr_ulr_" + sentence_idx + "_" + parse_idx;
+  document.getElementById(tr_id).innerHTML = ulr;
+}
+</script>
+
+</body>
+</html>

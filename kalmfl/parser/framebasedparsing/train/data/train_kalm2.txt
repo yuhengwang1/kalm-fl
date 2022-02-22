@@ -1,0 +1,213 @@
+John works as a salesman on a program at IBM in sales in London.
+John works as a salesman on a program for IBM in sales in London.
+John works as a salesman on a program in a company in sales in London.
+John works as a salesman on a program in a company in sales at AEOI.
+John has a salesman job in a company in sales in London.
+John has a salesman job with an institute in sales in London.
+John has a salesman job at IBM in sales in London.
+John has a salesman job in a company in sales at AEOI.
+John has a salesman job with an institute in sales at AEOI.
+John has a salesman job at IBM in sales at AEOI.
+John has the job of a salesman in a company in sales in London.
+John has the job of a salesman with an institute in sales in London.
+John has the job of a salesman at IBM in sales in London.
+John has the job of a salesman in a company in sales at AEOI.
+John has the job of a salesman with an institute in sales at AEOI.
+John has the job of a salesman at IBM in sales at AEOI.
+John has a job as a salesman in a company in sales in London.
+John has a job as a salesman with an institute in sales in London.
+John has a job as a salesman at IBM in sales in London.
+John has a job as a salesman in a company in sales at AEOI.
+John has a job as a salesman with an institute in sales at AEOI.
+John has a job as a salesman at IBM in sales at AEOI.
+The job of John is a salesman in a company in sales in London.
+The job of John is a salesman with an institute in sales in London.
+The job of John is a salesman at IBM in sales in London.
+The job of John is a salesman in a company in sales at AEOI.
+The job of John is a salesman with an institute in sales at AEOI.
+The job of John is a salesman at IBM in sales at AEOI.
+The job of John is as a salesman in a company in sales in London.
+The job of John is as a salesman with an institute in sales in London.
+The job of John is as a salesman at IBM in sales in London.
+The job of John is as a salesman in a company in sales at AEOI.
+The job of John is as a salesman with an institute in sales at AEOI.
+The job of John is as a salesman at IBM in sales at AEOI.
+John has a job of management in a company in sales in London.
+John has a job of management with an institute in sales in London.
+John has a job of management at IBM in sales in London.
+John has a job of management in a company in sales at AEOI.
+John has a job of management with an institute in sales at AEOI.
+John has a job of management at IBM in sales at AEOI.
+John is employed as a salesman in a company in sales in London.
+John is a salesman.
+Mary is a female.
+Mary has the gender of a female.
+The gender of Mary is a female.
+A female gender is held by Mary.
+Mary lives in a town with John.
+Mary lives on a dessert with John.
+Mary lives above a station with John.
+Mary lives around a station with John.
+Mary lives across a border with John.
+Mary lives at a house with John.
+Mary lives down a road with John.
+Mary lives near a site with John.
+Mary lives outside a community with John.
+Mary lives upon an island with John.
+Mary lives along a road with John.
+Mary is a resident of London.
+Mary is a resident from London.
+Mary is a resident in London.
+Mary is inhabited in a town with John.
+Mary is born in London in 1986.
+A garage is rented by Moore at a rate of 500 dollars from Dawson.
+A car is bought in London for John by Mary from George at a price of 300 dollars.
+A car is bought for John in London from George for 300 dollars by Mary.
+A car is bought for John in London from George with 300 dollars by Mary.
+A car is bought from George at a price of 300 dollars by Mary for John.
+A car is bought by Mary for John from George for 300 dollars.
+A car is bought with 300 dollars in London by Mary from George for John.
+A purchase of a car is made for John from George at a price of 300 dollars by Mary in London.
+A purchase of a car is made from George for John for 300 dollars by Mary in London.
+A purchase of a car is made by Mary in London with 300 dollars from George for John.
+400 dollars is paid for a store by Mary.
+400 dollars is paid to John for a store by Mary.
+Mary is a buyer of a store.
+A car is sold to John by Mary in London at a price of 300 dollars.
+A car was sold to John in London by Mary for 300 dollars.
+A car is being sold to John at a price of 300 dollars by Mary in London.
+A car will be sold in London to John by Mary for 300 dollars.
+A car is owned by Mary.
+Mary is the owner of a car.
+Mary is in a possession of a car.
+Mary has the ownership of a car.
+A meal is cooked in a kitchen by Mary for John.
+A suit is dressed in by John.
+A suit is put on by John.
+A suit is worn by John.
+Mary commutes from Boston to London.
+A trip from Boston to London is made by Mary.
+A company is founded in London by Mary.
+Mary is the founder of a company in London.
+A bachelor degree in Biology was obtained by Mary from Cambridge University.
+Mary enrolls in Cambridge University.
+Mary goes to Cambridge University.
+Cambridge University has been entered by Mary.
+Biology was studied by Mary at Cambridge University.
+Mary graduates from Cambridge University.
+Some money is donated to a school by Mary.
+Mary is a donor to a school.
+A church is endowed with some money by Mary.
+A donation of some money was made by Mary to a school.
+Mary and John are married.
+Mary is married to John.
+Mary and John are a couple.
+Mary is the mother of John.
+Mary is the daughter of John.
+Mary is a parent of John.
+Mary is a child of John.
+Mary is the wife of John.
+John is the husband of Mary.
+John is the son of Mary.
+John is the father of Mary.
+Mary is an American.
+The ancestry of Mary is American.
+Mary has an American ancestry.
+Mary is a Christian.
+A religion of Mary is a Christian.
+Mary works with John on a project.
+Mary works with John in a project.
+Mary has a cooperation with John over a project.
+Mary is a partner of John.
+The company is left by Mary.
+A job is quit by Mary.
+Mary resigns as a chairman from a company.
+Mary resigns from a chairman of a company.
+A resignation is made by Mary as chairman from a company.
+A cold is got by Mary.
+Mary is infected with a cold.
+Mary suffers from a cold.
+Mary has an age of 20.
+Mary is at the age of 20.
+Mary is under the age of 20.
+Mary is 20.
+A Nobel prize was assigned to Mary by Swedish Academy in 1986.
+Mary was awarded a Nobel Prize in 1986.
+A weapon is used by a soldier.
+Iraq's use of a nuclear weapon is banned.
+A new house is built with a hammer by Jack.
+The construction of a new house is made by Jack with a hammer.
+Mary is killed by Jack with a knife.
+Jack is a killer of Mary.
+Jack is arrested by the police for a murder.
+Jack is under arrest by police for murder.
+Jack is under arrest by police on a charge of murder.
+Jack is arrested by the police on a charge of murder.
+A guardsman is attacked by a mysterious fighter.
+An attack on Iraq was launched by US troops.
+An attack against Iraq was launched by US troops.
+A company is led by Jack as chairman.
+Jack is the leader of a company.
+Mary perished in Italy in 1979.
+Mary dies of cancer in Italy in 1979.
+Mary perishes from some hunger in Italy in 1979.
+A car is manufactured by GE.
+GE is a manufacturer of cars.
+The manufacture of cars was made by GE.
+3000 dollars on investment was earned by John.
+John has an income of 3000 dollars on investment.
+Mary is beat by John in a game.
+John is beat by Mary at a game.
+The defeat of Mary in a game is sad.
+The defeat of Mary at a game is sad.
+A headache of Jack is cured by Mary with a pill.
+Jack is cured by Mary with a pill.
+Paris is visited by Mary.
+Mary arrives in Paris.
+Mary arrives at Paris.
+Mary comes to Paris.
+The arrival of Mary in Paris is delayed.
+The arrival of Mary at Paris is delayed.
+A visit of Mary to Paris is delayed.
+Paris is left by Mary.
+Mary leaves from Paris.
+John is called by Mary.
+Mary writes to John.
+A call to John is made by Mary.
+Contact is made with John by Mary.
+Mary protests against the government.
+A protest against the government was made by Mary.
+A form will be submitted by Mary to a government.
+Hamlet is played by John in a play with Mary.
+The role of Hamlet is played by John in a play with Mary.
+John acts as Hamlet in a play with Mary.
+John co-stars with Mary in a play.
+A suspect will be released by the police from prison.
+Mary is released from a prison.
+A contract is signed by Mary.
+Mary accedes to a contract.
+An article is published with Nature by Mary.
+An article is published by Mary in Nature.
+An article of Mary is published by Nature.
+3000 dollars on investments are lost by John.
+John has a loss of 3000 dollars on investment.
+The phone was lost by John.
+Mary surrenders to the police on a charge of murder.
+A letter is written by Mary.
+A watch was stolen from John by Mary.
+A hat is taken off by Mary.
+Food is grown by Mary.
+Mary participates in an event with John.
+Mary is involved in an event with John.
+A book is borrowed from John by Mary.
+A book was lent by Mary to John.
+KFC is a cheap and American restaurant in the US.
+A headache is cured with a pill by Mary.
+An article was published by Mary in Nature.
+An article on waltz was published by Mary.
+John is employed by IBM in London.
+Some beef is imported by China from Japan.
+Some beef is exported to China by Japan.
+A trip is scheduled in an office by Mary.
+A trip was scheduled by Mary at a school.
+A trip to London will be scheduled by Mary.

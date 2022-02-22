@@ -1,0 +1,250 @@
+Mary is a female.
+A female gender is held by Kate.
+Susan has the gender of a female.
+John is a male.
+Mary lives in a village.
+Kate lives in a town with John.
+Susan is a resident of New York City.
+Taylor Swift lives in Nashville.
+Warren Buffett stays in Omaha.
+John is inhabited in Tennessee.
+A house was rented by Mary from John.
+An apartment will be leased from John by Mary.
+A car was chartered by Kate.
+A textbook is rented by a student from a library.
+A truck was rented by John.
+A laptop is bought by Mary.
+A house was purchased by Kate.
+A phone is being bought by Susan.
+George is a buyer of a store.
+A purchase of a company was made by Kate.
+A meal was bought for John by Mary.
+A motorcycle is purchased by Mary from John.
+A motorcycle was bought by Mary for the daughter for 300 dollars from Bob.
+A house was bought for John by Jane at a price of 300000 dollars from a friend.
+A car is owned by Mary.
+John is the owner of a farm.
+Kate is the owner of a shop.
+Susan has a house.
+A painting is possessed by Mary.
+John is a possessor of a factory.
+Michael Jordan is born in 1963 in Brooklyn.
+Abraham Lincoln is born in 1809 in Kentucky.
+Mozart is born in 1756 in Austria.
+The bread is baked by Mary.
+A burger was made by Kate in the kitchen.
+A burger is made by Susan in a restaurant.
+A fish is fried by John.
+A duck is roasted by Tom.
+An egg is being boiled by Mary.
+An omelet is being made by John.
+An omelet was made by a cook.
+A burger is made by a chef.
+A suit is dressed in by John.
+A jacket is worn by Tom.
+A T-shirt is put on by Jack.
+A skirt will be put on by Mary.
+A blouse was worn by Susan.
+Mary travels to New York City.
+A trip to China was made by John.
+A trip from Beijing to Shanghai will be made by Kate.
+Susan commutes to Sydney.
+A journey from Brazil to Chile has been made by George.
+Google was founded by Larry Page.
+Microsoft is founded by Bill Gates.
+Mark Zuckerberg is a founder of Facebook.
+Robin Li is a founder of Baidu.
+A foundation is being founded by John.
+Mary studies at Cambridge University.
+A bachelor's degree was received by John from Cambridge University.
+A master's degree in Biology has been received by Kate from Harvard University.
+Peking University was entered by Susan.
+Tom graduates from MIT.
+Bill Gates is a donor to Stanford University.
+Harvard University was endowed with some money by Bill Gates.
+A donation of a piano was made by Billy Joel to Stony Brook University.
+Some money will be donated by Steve Jobs to a school.
+Mary is the daughter of John.
+Mary is married to John.
+Mary and John are married.
+Kate is at the age of 20.
+Kate is 20.
+Kate is under the age of 20.
+Albert Einstein was awarded the Nobel Prize in Physics.
+Swedish Academy granted the Nobel Prize in Physics to Albert Einstein.
+Swedish Academy gives the Nobel Prize in Physics to Albert Einstein.
+The Association for Computing Machinery gives Turing Award to Donald Knuth.
+The Academy of Motion Picture Arts and Sciences gives Emma Stone an Oscar Award.
+A cold is got by Mary.
+Kate is diagnosed with cancer.
+John suffers from a headache.
+Susan is infected with a virus.
+Kate is diagnosed with diabetes.
+Bill Gates resigns as a chairman from Microsoft.
+Jeff Immelt retires from GE.
+Steve Ballmer steps down as a CEO from Microsoft.
+Mary is an Italian.
+John has a British nationality.
+Susan is a New Yorker.
+Denise is a Parisian.
+Mary is a Christian.
+Steve is a Buddhist.
+Mary has a job of a nurse.
+Kate is a teacher.
+John works at IBM.
+Susan works as a singer.
+Tom works in Berlin.
+Mary works with John.
+Mary teams up with John on a project.
+Mary is a partner of John.
+Mary dies in Italy.
+Kate dies in 1876.
+John dies of cancer.
+An orphan dies from some hunger.
+A gun is used by a soldier.
+A machine is operated by a laborer.
+A tool will be utilized by a technician.
+A phone is being used by Mary.
+A chemical weapon was applied by Syria.
+A military's use of a nuclear weapon is against a law.
+A house was built by Jack.
+An airport is being constructed by a company of Hong Kong.
+A nuclear plant was constructed by the government.
+A dresser is assembled by John.
+The construction of a new road is made by a laborer.
+Gerald Ford was assassinated by Squeaky Fromme.
+50 children were killed by a gunman.
+Some young women are massacred by the army.
+Rachel is a killer of a policeman.
+Jack is arrested by the police for murder.
+The police arrested Harry for shoplifting.
+A citizen is apprehended by FBI for treason.
+Madoff is under arrest by police for fraud.
+A governor was arrested by EFCC on a charge of corruption.
+A strike against Libya is launched by the US.
+An assault on Benghazi was launched by US troops.
+A soldier was ambushed by a rebel.
+A guardsman is attacked by a mysterious fighter.
+A young girl is assaulted by a gang.
+Bill Gates is a chairman of the Gates Foundation.
+Jordan is ruled by King Hussein.
+Xi Jinping is the chief of the Communist Party of China.
+Google is led by Larry Page.
+Bill de Blasio is a governor of New York City.
+General Motors is a manufacturer of some vehicles.
+Microsoft is a maker of some software.
+Some shoes are produced by Nike.
+Pfizer is a producer of some drugs.
+Some smartphones are manufactured by Foxconn.
+1000000 dollars is earned by Puerto Rico on tourism.
+1000000 dollars was made by Warren Buffett on investment.
+A revenue of 1000000 dollars on healthcare is generated by Pfizer.
+John has a monthly income of 3000 dollars.
+A revenue of 300000000 dollars on Ecommerce is made by Amazon.
+Rafael Nadal was beat by Roger Federer in US Open.
+Hillary Clinton was defeated by Donald Trump in the US election.
+Walmart was beat by Amazon in online shopping.
+Brazil's defeat in the World Cup is unexpected.
+Jack's pain is alleviated by a doctor with a painkiller.
+Jack was healed with some antibiotics by a physician.
+A soldier was treated by a doctor with Chinese medicine.
+Jack's stomachache was cured by a doctor with Aspirin.
+A hostage returns to the US.
+China has been visited by Shinzo Abe.
+George approaches to a hospital.
+Donald Trump comes to Texas after a hurricane.
+The victory of the war was marked by the arrival of the British army in Normandy.
+Los Angeles is exited by John.
+A park is left by John.
+A military departs from Pearl Harbor.
+An opponent escapes from Zimbabwe.
+The police is called by Mary.
+A senator will be phoned by John.
+A potential customer was reached by a company.
+An employer is contacted by Mary.
+John makes a call to his own girlfriend.
+A student protests against the government.
+A civilian demonstrates against Saddam Hussein.
+A union makes a demonstration against the management of a company.
+A form is submitted by Mary to IRS.
+A ballot is handed in by a voter.
+Some paperwork is filed by a new employee.
+A report will be turned in to CNN by a correspondent.
+A patent was filed to USPTO by IBM.
+Kate Winslet co-stars with Leonardo DiCaprio in Titanic.
+Kate co-stars with Leonardo in Titanic.
+John Mills acts as a soldier in Dunkirk.
+The role of Hamlet is featured by John in a new film.
+Vito Corleone was played by Marlon Brando in The Godfather.
+Zoe Saldana appears in Avatar.
+Captain Jack Sparrow is starred by Johnny Depp in Pirates of the Caribbean.
+A protestor is released by the police.
+Nelson Mandela is released from prison.
+A prisoner is released from Iran.
+A criminal is released by FBI.
+A treaty was signed by Eisenhower.
+John accedes to a contract.
+The Kyoto protocol was signed by The United States.
+A monarch accedes to a bill.
+The UK accedes to a convention.
+A paper is published in Nature by John.
+A article on waltz is released by John.
+A new book is published by Donald Knuth with MIT Press.
+A memoir of Winston Churchill is released by Cambridge Press.
+A new film is released in Netflix by Angelina Jolie.
+A new novel is published by Ernest Hemingway.
+4000 dollars was lost by John on gambling.
+Some money is lost by a private investor.
+A hedge fund has a loss of 3000000 dollars on trading.
+3000000 dollars is lost by an airline on international service.
+A wallet is lost by Mary.
+A robber surrenders to police.
+Japan surrenders to the Allies.
+A protester gives up to authority.
+Chapo Guzman surrenders to prison on a charge of smuggling.
+Mukhtar Robow surrenders to the government.
+A description of a frame is written by Mary.
+A letter is drafted by a senator.
+An essay is composed by a student.
+A manuscript was typed by John.
+An autobiography was authored by Malala Yousafzai.
+A watch from Mary is snatched by John.
+A painting was stolen by a thief from a museum.
+Some money is swiped from a passenger by John.
+A jewel is shoplifted from a shop by a gang.
+Some documents is embezzled from the governor by a spy.
+some slippers is kicked off by John.
+A swimsuit is peeled off by Mary.
+A raincoat was removed by John.
+A blouse was slipped by Mary.
+A scarf is being taken off by John.
+Spain participates in the World Cup.
+A student engages in a workshop.
+A policeman is involved in a shooting.
+A buyer is engaged in an auction.
+A terrorist is involved in an explosion.
+Some wheat is grown by a planter.
+Some corns are raised by Tom's grandfather.
+Some vegetables are grown by Mary.
+Some potatoes are grown by John.
+Some carrots are grown by a chef.
+A book was borrowed from John by Mary.
+Some money is lent to Venezuela by China.
+Some equipment was lent to an officer by an army.
+A violin was lent to a Syrian refugee by Oxford University.
+Some shares are borrowed from a company by a seller.
+Red Lobster is a seafood restaurant.
+McDonalds is a burger restaurant.
+Curry Club is an Indian restaurant.
+Ippudo is a cheap and Asian restaurant in New York City.
+Panda Express is a cheap and Chinese restaurant.
+Some coal is exported to Japan by China.
+Some oil is imported from Saudi Arabia by the US.
+Some automobiles are exported to Korea by Germany.
+Some fighters are exported to Iran by Russia.
+Some lambs are imported from Australia by the US.
+A meeting was scheduled by Mary.
+A dental appointment is set up by John.
+A trip to Japan is arranged by John.
+An interview was scheduled by Mary.
+A forum is arranged by some students.

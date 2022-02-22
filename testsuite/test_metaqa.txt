@@ -1,0 +1,350 @@
+The films directed by the director of [MASK] starred who?
+The films that share actors with the film [MASK] are directed by who?
+The films that share actors with the film [MASK] are written by who?
+The films that share actors with the film [MASK] were in which genres?
+The films that share actors with the film [MASK] were in which languages?
+The films that share actors with the film [MASK] were released in which years?
+The films that share directors with the film [MASK] were in which genres?
+The films that share directors with the film [MASK] were in which languages?
+The films that share directors with the film [MASK] were released in which years?
+The films that share directors with the films [MASK] are written by who?
+The films that share screenwriters with [MASK] were released in which years?
+The films that share writers with the film [MASK] were in which genres?
+The films written by the screenwriter of [MASK] were directed by who?
+The films written by the writer of [MASK] starred who?
+The movies directed by the director of [MASK] starred who?
+The movies that share actors with the movie [MASK] are directed by who?
+The movies that share actors with the movie [MASK] are written by who?
+The movies that share actors with the movie [MASK] were in which genres?
+The movies that share actors with the movie [MASK] were in which languages?
+The movies that share actors with the movie [MASK] were released in which years?
+The movies that share directors with the movie [MASK] are written by who?
+The movies that share directors with the movie [MASK] were in which genres?
+The movies that share directors with the movie [MASK] were in which languages?
+The movies that share directors with the movie [MASK] were released in which years?
+The movies that share screenwriters with the movie [MASK] were in which languages?
+The movies that share writers with the movie [MASK] were in which genres?
+The movies that share writers with the movie [MASK] were in which languages?
+The movies that share writers with the movie [MASK] were released in which years?
+The movies written by the screenwriter of [MASK] starred who?
+The movies written by the screenwriter of [MASK] were directed by who?
+What are the genres of the films whose actors also appear in [MASK]?
+What are the genres of the films whose directors also directed [MASK]?
+What are the genres of the films whose screenwriters also wrote [MASK]?
+What are the genres of the movies whose actors also appear in [MASK]?
+What are the genres of the movies whose directors also directed [MASK]?
+What are the genres of the movies whose writers also wrote [MASK]?
+What are the languages spoken in the films directed by the [MASK] director?
+What are the languages spoken in the films starred by [MASK] actors?
+What are the languages spoken in the films whose actors also appear in [MASK]?
+What are the languages spoken in the films whose directors also directed [MASK]?
+What are the languages spoken in the films whose writers also wrote [MASK]?
+What are the languages spoken in the films written by [MASK] screenwriters?
+What are the languages spoken in the movies directed by the [MASK] director?
+What are the languages spoken in the movies starred by [MASK] actors?
+What are the languages spoken in the movies whose actors also appear in [MASK]?
+What are the languages spoken in the movies whose directors also directed [MASK]?
+What are the languages spoken in the movies whose writers also wrote [MASK]?
+What are the languages spoken in the movies written by [MASK] writers?
+What are the primary languages in the films directed by the director of [MASK]?
+What are the primary languages in the films starred by actors in [MASK]?
+What are the primary languages in the films written by the screenwriter of [MASK]?
+What are the primary languages in the movies directed by the director of [MASK]?
+What are the primary languages in the movies starred by actors in [MASK]?
+What are the primary languages in the movies written by the writer of [MASK]?
+What genres are the films directed by the [MASK] director?
+What genres are the films starred by [MASK] actors?
+What genres are the films written by [MASK] screenwriters?
+What genres are the movies directed by the [MASK] director?
+What genres are the movies starred by [MASK] actors?
+What genres are the movies written by [MASK] writers?
+What genres do the films that share actors with [MASK] fall under?
+What genres do the films that share directors with [MASK] fall under?
+What genres do the films that share writers with [MASK] fall under?
+What genres do the movies that share actors with [MASK] fall under?
+What genres do the movies that share directors with [MASK] fall under?
+What genres do the movies that share screenwriters with [MASK] fall under?
+What languages are the films that share actors with [MASK] in?
+What languages are the films that share directors with [MASK] in?
+What languages are the films that share writers with [MASK] in?
+What languages are the movies that share actors with [MASK] in?
+What languages are the movies that share directors with [MASK] in?
+What languages are the movies that share screenwriters with [MASK] in?
+What types are the films directed by the director of [MASK]?
+What types are the films starred by actors in [MASK]?
+What types are the movies directed by the director of [MASK]?
+What types are the movies starred by actors in [MASK]?
+What types are the movies written by the screenwriter of [MASK]?
+What types are the movies written by the writer of [MASK]?
+What were the release dates of films directed by the director of [MASK]?
+What were the release dates of films starred by actors in [MASK]?
+What were the release dates of films written by the screenwriter of [MASK]?
+What were the release dates of movies directed by the director of [MASK]?
+What were the release dates of movies starred by actors in [MASK]?
+What were the release dates of movies written by the writer of [MASK]?
+What were the release years of the films that share actors with the film [MASK]?
+What were the release years of the films that share directors with the film [MASK]?
+What were the release years of the films that share writers with the film [MASK]?
+What were the release years of the movies that share actors with the movie [MASK]?
+What were the release years of the movies that share directors with the movie [MASK]?
+What were the release years of the movies that share screenwriters with the movie [MASK]?
+When did the films directed by the [MASK] director release?
+When did the films release whose actors also appear in the film [MASK]?
+When did the films release whose directors also directed [MASK]?
+When did the films release whose screenwriters also wrote [MASK]?
+When did the films starred by [MASK] actors release?
+When did the films written by [MASK] writers release?
+When did the movies directed by the [MASK] director release?
+When did the movies release whose actors also appear in the movie [MASK]?
+When did the movies release whose directors also directed [MASK]?
+When did the movies release whose writers also wrote [MASK]?
+When did the movies starred by [MASK] actors release?
+When did the movies written by [MASK] writers release?
+Which person directed the films acted by the actors in [MASK]?
+Which person directed the movies starred by the actors in [MASK]?
+Which person wrote the films acted by the actors in [MASK]?
+Which person wrote the films directed by the director of [MASK]?
+Which person wrote the movies directed by the director of [MASK]?
+Which person wrote the movies starred by the actors in [MASK]?
+Who acted in the films directed by the director of [MASK]?
+Who acted in the films written by the screenwriter of [MASK]?
+Who acted in the movies directed by the director of [MASK]?
+Who acted in the movies written by the writer of [MASK]?
+Who are the actors in the films directed by the director of [MASK]?
+Who are the actors in the films written by the screenwriter of [MASK]?
+Who are the actors in the movies directed by the director of [MASK]?
+Who are the actors in the movies written by the writer of [MASK]?
+Who are the directors of films whose writers also wrote [MASK]?
+Who are the directors of movies whose writers also wrote [MASK]?
+Who are the directors of the films written by the writer of [MASK]?
+Who are the directors of the movies written by the writer of [MASK]?
+Who are the directors of the films whose actors also appear in the film [MASK]?
+Who are the directors of the movies whose actors also appear in the movie [MASK]?
+Who are the screenwriters of the movies whose actors also appear in the movie [MASK]?
+Who are the screenwriters of the movies whose directors also directed [MASK]?
+Who are the writers of the films whose actors also appear in the film [MASK]?
+Who are the writers of the films whose directors also directed [MASK]?
+Who directed films for the writer of [MASK]?
+Who directed films that share actors with the film [MASK]?
+Who directed movies for the writer of [MASK]?
+Who directed movies that share actors with the movie [MASK]?
+Who directed the films written by the writer of [MASK]?
+Who directed the movies written by the writer of [MASK]?
+Who is listed as director of the films starred by [MASK] actors?
+Who is listed as director of the movies starred by [MASK] actors?
+Who is listed as screenwriter of the films directed by the [MASK] director?
+Who is listed as screenwriter of the films starred by [MASK] actors?
+Who is listed as screenwriter of the movies directed by the [MASK] director?
+Who is listed as screenwriter of the movies starred by [MASK] actors?
+Who starred films for the director of [MASK]?
+Who starred films for the screenwriter of [MASK]?
+Who starred in the films whose directors also directed [MASK]?
+Who starred in the films whose screenwriters also wrote [MASK]?
+Who starred in the movies whose director also directed [MASK]?
+Who starred in the movies whose writers also wrote [MASK]?
+Who starred movies for the director of [MASK]?
+Who starred movies for the writer of [MASK]?
+Who wrote films that share actors with the film [MASK]?
+Who wrote films that share directors with the film [MASK]?
+Who wrote movies that share actors with the movie [MASK]?
+Who wrote movies that share directors with the movie [MASK]?
+The actor [MASK] acted together with who?
+The actor [MASK] appeared in the same movie with who?
+The actor [MASK] co-starred with who?
+The actor [MASK] is a co-star of who?
+The actor [MASK] starred together with who?
+The actor in [MASK] also appears in which films?
+The actor in [MASK] also appears in which movies?
+The actor of [MASK] also starred in which films?
+The actor of [MASK] also starred in which movies?
+The director [MASK] co-directed films with who?
+The director [MASK] co-directed movies with who?
+The director of [MASK] also directed which films?
+The director of [MASK] also directed which movies?
+The director of [MASK] is also the director of which films?
+The director of [MASK] is also the director of which movies?
+The films acted by [MASK] were directed by who?
+The films acted by [MASK] were in which genres?
+The films acted by [MASK] were in which languages?
+The films acted by [MASK] were released in which years?
+The films acted by [MASK] were written by who?
+The films directed by [MASK] starred which actors?
+The films directed by [MASK] were in which genres?
+The films directed by [MASK] were in which languages?
+The films directed by [MASK] were released in which years?
+The films directed by [MASK] were written by who?
+The films written by [MASK] starred which actors?
+The films written by [MASK] were directed by who?
+The films written by [MASK] were in which genres?
+The films written by [MASK] were in which languages?
+The movies directed by [MASK] starred who?
+The movies directed by [MASK] were in which genres?
+The movies directed by [MASK] were in which languages?
+The movies directed by [MASK] were released in which years?
+The movies directed by [MASK] were written by who?
+The movies starred by [MASK] were directed by who?
+The movies starred by [MASK] were in which genres?
+The movies starred by [MASK] were in which languages?
+The movies starred by [MASK] were released in which years?
+The movies starred by [MASK] were written by who?
+The movies written by [MASK] starred who?
+The movies written by [MASK] were directed by who?
+The movies written by [MASK] were in which genres?
+The movies written by [MASK] were in which languages?
+The screenwriter [MASK] co-wrote films with who?
+The screenwriter [MASK] co-wrote movies with who?
+The screenwriter [MASK] wrote films together with who?
+The screenwriter of [MASK] also wrote which films?
+The screenwriter of [MASK] also wrote which movies?
+The scriptwriter of [MASK] also wrote which movies?
+The scriptwriter of [MASK] also wrote which films?
+What are the films that are directed by the same director of [MASK]?
+What are the films that have the same actor of [MASK]?
+What are the films that have the same screenwriter of [MASK]?
+What are the genres of the films directed by [MASK]?
+What are the genres of the films starred by [MASK]?
+What are the genres of the films written by [MASK]?
+What are the genres of the movies acted by [MASK]?
+What are the genres of the movies directed by [MASK]?
+What are the genres of the movies written by [MASK]?
+What are the languages spoken in the films directed by [MASK]?
+What are the languages spoken in the films starred by [MASK]?
+What are the languages spoken in the films written by [MASK]?
+What are the languages spoken in the movies acted by [MASK]?
+What are the languages spoken in the movies directed by [MASK]?
+What are the languages spoken in the movies written by [MASK]?
+What are the main languages in [MASK] acted films?
+What are the main languages in [MASK] directed films?
+What are the main languages in [MASK] directed movies?
+What are the main languages in [MASK] starred movies?
+What are the main languages in [MASK] written films?
+What are the main languages in [MASK] written movies?
+What are the movies that are directed by the same director of [MASK]?
+What are the movies that have the same actor of [MASK]?
+What are the movies that have the same screenwriter of [MASK]?
+What are the primary languages in the films acted by [MASK]?
+What are the primary languages in the films directed by [MASK]?
+What are the primary languages in the films written by [MASK]?
+What are the primary languages in the movies acted by [MASK]?
+What are the primary languages in the movies directed by [MASK]?
+What are the primary languages in the movies written by [MASK]?
+What genres are the films acted by [MASK] in?
+What genres are the films directed by [MASK] in?
+What genres are the films written by [MASK] in?
+What genres are the movies acted by [MASK] in?
+What genres are the movies directed by [MASK] in?
+What genres are the movies written by [MASK] in?
+What genres do the films directed by [MASK] fall under?
+What genres do the films starred by [MASK] fall under?
+What genres do the films written by [MASK] fall under?
+What genres do the movies acted by [MASK] fall under?
+What genres do the movies directed by [MASK] fall under?
+What genres do the movies written by [MASK] fall under?
+What languages are the films directed by [MASK] in?
+What languages are the films starred by [MASK] in?
+What languages are the films written by [MASK] in?
+What languages are the movies acted by [MASK] in?
+What languages are the movies directed by [MASK] in?
+What languages are the movies written by [MASK] in?
+What types are the films directed by [MASK]?
+What types are the films starred by [MASK]?
+What types are the films written by [MASK]?
+What types are the movies directed by [MASK]?
+What types are the movies starred by [MASK]?
+What types are the movies written by [MASK]?
+What were the release dates of [MASK] acted films?
+What were the release dates of [MASK] directed films?
+What were the release dates of [MASK] directed movies?
+What were the release dates of [MASK] starred movies?
+What were the release years of the movies acted by [MASK]?
+What were the release years of the movies directed by [MASK]?
+What were the release years of the films directed by [MASK]?
+What were the release years of the films starred by [MASK]?
+When did the films directed by [MASK] release?
+When did the films starred by [MASK] release?
+When did the movies acted by [MASK] release?
+When did the movies directed by [MASK] release?
+When were the films acted by [MASK] released?
+When were the films directed by [MASK] released?
+When were the movies directed by [MASK] released?
+When were the movies starred by [MASK] released?
+Which directors co-directed films with [MASK]?
+Which directors co-directed movies with [MASK]?
+Which films have the same actor of [MASK]?
+Which films have the same director of [MASK]?
+Which films have the same screenwriter of [MASK]?
+Which films share the same actor of [MASK]?
+Which films share the same director of [MASK]?
+Which films share the screenwriter with [MASK]?
+Which movies have the same actor of [MASK]?
+Which movies have the same director of [MASK]?
+Which movies have the same screenwriter of [MASK]?
+Which movies share the same actor of [MASK]?
+Which movies share the same director of [MASK]?
+Which movies share the screenwriter with [MASK]?
+Which person directed the films acted by [MASK]?
+Which person directed the films written by [MASK]?
+Which person directed the movies starred by [MASK]?
+Which person directed the movies written by [MASK]?
+Which person wrote the films acted by [MASK]?
+Which person wrote the films directed by [MASK]?
+Which person wrote the movies directed by [MASK]?
+Which person wrote the movies starred by [MASK]?
+Which screenwriters co-wrote films with [MASK]?
+Which screenwriters co-wrote movies with [MASK]?
+Who acted in the films directed by [MASK]?
+Who acted in the films written by [MASK]?
+Who acted in the movies directed by [MASK]?
+Who acted in the movies written by [MASK]?
+Who acted together with [MASK]?
+Who appeared in the same movie with [MASK]?
+Who are co-stars of [MASK]?
+Who are film co-directors of [MASK]?
+Who are film co-writers of [MASK]?
+Who are movie co-directors of [MASK]?
+Who are movie co-writers of [MASK]?
+Who are the actors in the films directed by [MASK]?
+Who are the actors in the films written by [MASK]?
+Who are the actors in the movies directed by [MASK]?
+Who are the actors in the movies written by [MASK]?
+Who are the actors of the director [MASK]?
+Who are the actors of the screenwriter [MASK]?
+Who are the directors of the films starred by [MASK]?
+Who are the directors of the films written by [MASK]?
+Who are the directors of the movies acted by [MASK]?
+Who are the directors of the movies written by [MASK]?
+Who are the writers of the films directed by [MASK]?
+Who are the writers of the films starred by [MASK]?
+Who are the writers of the movies acted by [MASK]?
+Who are the writers of the movies directed by [MASK]?
+Who co-directed films with [MASK]?
+Who co-starred with [MASK]?
+Who co-wrote films with [MASK]?
+Who directed films together with [MASK]?
+Who directed movies together with [MASK]?
+Who directed the films starred by [MASK]?
+Who directed the films written by [MASK]?
+Who directed the movies acted by [MASK]?
+Who directed the movies written by [MASK]?
+Who is listed as director of [MASK] acted films?
+Who is listed as director of [MASK] starred movies?
+Who is listed as director of [MASK] written films?
+Who is listed as director of [MASK] written movies?
+Who is listed as screenwriter of [MASK] acted films?
+Who is listed as screenwriter of [MASK] directed films?
+Who is listed as screenwriter of [MASK] directed movies?
+Who is listed as screenwriter of [MASK] starred movies?
+Who starred in the films directed by [MASK]?
+Who starred in the films written by [MASK]?
+Who starred in the movies directed by [MASK]?
+Who starred in the movies written by [MASK]?
+Who starred movies for the director [MASK]?
+Who starred movies for the writer [MASK]?
+Who starred together with [MASK]?
+Who wrote films together with [MASK]?
+Who wrote movies together with [MASK]?
+Who wrote the movies acted by [MASK]?
+Who wrote the movies directed by [MASK]?
+Who wrote the screenplay for the movies directed by [MASK]?
+Who wrote the screenplay for the movies starred by [MASK]?
+[MASK] directed films together with who?

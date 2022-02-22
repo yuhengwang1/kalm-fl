@@ -1,0 +1,82 @@
+Actors appear in the films.
+Actors are someones in the films.
+Director's films.
+Directors directed the films.
+Films are directed by directors.
+Films are starred by actors.
+Films are starred by the actors in the films.
+Films starred actors.
+Films share actors with the films.
+Films share actors with the films.
+Films share actors with the films.
+Films share directors with the films.
+Films share directors with the films.
+Films share writers with the films.
+Films share writers with the films.
+Films were in the genres.
+Films were released in 2021.
+Film whose actors appear in the films.
+Film whose actors also appear in the films.
+Film whose directors directed the films.
+Film whose directors also directed the films.
+Film whose writers wrote the films.
+Films are written by writers.
+Film actors.
+Film directors.
+Film writers.
+Genres of the films.
+Languages are English in the films.
+Languages are spoken in the films.
+Films are the genres.
+Films fall under the genres.
+Films are in the languages.
+Release dates of the films.
+The films released sometime.
+Directors directed the films for the writers.
+Actors starred the films for the directors.
+Writers wrote the films.
+Writer's films.
+Actors starred the films.
+Actors of the films.
+Directors of the films.
+Writers of the films.
+Actors in the films also appear in the films.
+Directors of the films also directed the films.
+Film will release whose directors directed the films.
+Film will release whose also directors directed the films.
+Film will release whose writers wrote the films.
+Film will release whose actors appear in the films.
+Film will release whose actors also appear in the films.
+Films are directed by the director of the films.
+Films are directed by the same director of the films.
+Films have actors of the films.
+Films have the same actors of the films.
+Films have writers of the films.
+The [MASK]-starred movies.
+The [MASK]-directed films.
+The [MASK]-written films.
+Films have actors of the films.
+Films have the same actors of the films.
+Films have director of the films.
+Films have writers of the films.
+The co-writers of the writer.
+The co-directors of the director.
+Actors of directors [MASK].
+Actors of writers [MASK].
+Writers wrote the screenplays for the movies.
+Actors in the films.
+Actors appear in the films with actors.
+Actors appear in the same films with actors.
+Actors co-starred with actors.
+Actor is a co-star of actor.
+Director of films is also the director of films.
+Directors co-directed films with directors.
+Directors co-directed films with directors.
+Writers co-write films with writers.
+Actors of films also appear in the films.
+When are the movies?
+Actors starred the movies for the writers.
+Films share writers with the films.
+Someone is listed as the director of the film.
+Someone is listed as the writer of the film.
+What genres are films?

@@ -1,0 +1,148 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>KALM for factual language</title>
+    <link rel="shortcut icon" href="#">
+    <style>
+    .button {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    }
+    </style>
+</head>
+
+<body>
+<h1>KALM for factual language</h1>
+<textarea name="message" rows="6" cols="60" id="msg" style="font-size:15pt"></textarea>
+<select name="ont" id="ont" onchange="switch_ontology(this.options[this.options.selectedIndex].value)">
+    <option value="kalm">CNLD</option>
+    <option value="kalm2">CNLDM</option>
+    <option value="framenet">NLD</option>
+</select>
+<input class="button" type="button" value="parse" onclick="stanza_parse_input()"/>
+<input class="button" type="button" value="batch" onclick="stanza_parse_batch()"/>
+<!--<input class="button" type="button" value="disambiguate" onclick="disambiguate()"/>-->
+<p id="display1">{{ temp }}</p>
+</body>
+
+<script type="text/javascript" src = "{{url_for('static', filename='jquery.min.js')}}"></script>
+<script type="text/javascript">
+   function switch_ontology(ontText)
+   {
+       $.ajax(
+       {
+         type: "POST",
+         url: "/switch-ontology",
+         contentType: "application/json; charset=utf-8",
+         data: ontText,
+         dataType: "text",
+         success: function(msg)
+         {
+            console.log(msg);
+         },
+         error: function (xhr, status, error) {
+            console.log(error);
+         }
+       });
+   }
+   function stanza_parse_input()
+   {
+       $("#display1").html("parsing by Stanza...");
+       $.ajax(
+       {
+         type: "POST",
+         url: "/stanza-parse-input",
+         contentType: "application/json; charset=utf-8",
+         data: $("#msg").val(),
+         dataType: "text",
+         success: function(msg)
+         {
+            get_sentence_level_rejected_sentences();
+         },
+         error: function (xhr, status, error) {
+            console.log(error);
+         }
+       });
+   }
+   function stanza_parse_batch()
+   {
+       $("#display1").html("parsing by Stanza...");
+       $.ajax(
+       {
+         type: "POST",
+         url: "/stanza-parse-batch",
+         dataType: "html",
+         success: function(msg)
+         {
+            get_sentence_level_rejected_sentences();
+         },
+         error: function (xhr, status, error) {
+            console.log(error);
+         }
+       });
+   }
+   function get_sentence_level_rejected_sentences()
+   {
+       $("#display1").html("sentence-level verb-centric check...");
+       $.ajax(
+       {
+         type: "POST",
+         url: "/get-sentence-level-rejected-sentences",
+         dataType: "html",
+         success: function(msg)
+         {
+            paraparse_and_serialize();
+         },
+         error: function (xhr, status, error) {
+            console.log(error);
+         }
+       });
+   }
+   function paraparse_and_serialize()
+   {
+       $("#display1").html("paraparsing...");
+       $.ajax(
+           {
+               type: "POST",
+               url: "/paraparse-and-serialize",
+               contentType: "application/json; charset=utf-8",
+               dataType: "text",
+               success: function(msg)
+               {
+                   disambiguate();
+                   console.log(msg);
+               },
+               error: function (xhr, status, error) {
+                   console.log(error);
+               }
+           });
+   }
+   function disambiguate()
+   {
+       $("#display1").html("disambiguating...");
+       $.ajax(
+           {
+               type: "POST",
+               url: "/disambiguate",
+               contentType: "application/json; charset=utf-8",
+               dataType: "text",
+               success: function(msg)
+               {
+                   console.log(msg);
+                   $("#display1").html(msg);
+               },
+               error: function (xhr, status, error) {
+                   console.log(error);
+               }
+           });
+   }
+</script>
+</html>
