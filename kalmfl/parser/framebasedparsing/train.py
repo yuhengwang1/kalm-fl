@@ -29,7 +29,7 @@ processor.serialize()
 
 f = open('config/xsb.properties', 'r')
 lines = f.read().split('\n')
-xsb_path_str = lines[4].split('=')[1]
+xsb_path_str = lines[3].split('=')[1]
 f.close()
 os.chdir('kalmfl/parser/framebasedparsing/' + args.mode + '/run')
 subprocess.call(xsb_path_str + " -e \"[" + args.mode + "_" + args.ont + "], halt.\"", shell=True)

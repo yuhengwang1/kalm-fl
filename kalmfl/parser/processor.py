@@ -236,7 +236,7 @@ class Processor:
             is_verb_centric = False
 
             for candidate in sentence.parse_candidates:
-                if sentence.is_sentence_level_verb_centric(candidate):
+                if sentence.is_factual(candidate):
                     sentence.set_selected_candidate(candidate)
                     is_verb_centric = True
                     break
@@ -265,7 +265,7 @@ class Processor:
                 else:
                     is_verb_centric = False
                     for candidate in sentence.parse_candidates:
-                        if sentence.is_sentence_level_verb_centric(candidate):
+                        if sentence.is_factual(candidate):
                             sentence.set_selected_candidate(candidate)
                             is_verb_centric = True
                             break
@@ -278,7 +278,7 @@ class Processor:
             else:
                 is_verb_centric = False
                 for candidate in sentence.parse_candidates:
-                    if sentence.is_sentence_level_verb_centric(candidate):
+                    if sentence.is_factual(candidate):
                         sentence.set_selected_candidate(candidate)
                         is_verb_centric = True
                         break
@@ -307,7 +307,7 @@ class Processor:
                 sentence.generate_parse_candidates(reparsed_doc)
 
                 for candidate in sentence.parse_candidates:
-                    if sentence.is_sentence_level_verb_centric(candidate):
+                    if sentence.is_factual(candidate):
                         sentence.set_parse_with_prt_verbs(candidate)
                         sentence.set_parse_list(candidate)
                         sentence.generate_ner_info(reparsed_doc, append=True)

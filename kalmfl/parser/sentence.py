@@ -85,9 +85,9 @@ class Sentence:
 
 
 
-    def is_sentence_level_verb_centric(self, parse):
+    def is_factual(self, parse):
 
-        is_verb_centric = True
+        is_factual = True
 
         if sum([wd.deprel == 'root' for wd in parse]) != 1:
             return False
@@ -101,49 +101,49 @@ class Sentence:
                         main_word = wd
                         break
                 if not main_word:
-                    is_verb_centric = False
+                    is_factual = False
                     break
 
                 if word.deprel == 'aux' and main_word.pos != 'VERB' or \
                         word.deprel == 'aux:pass' and main_word.xpos != 'VBN' or \
                         word.deprel == 'cop' and main_word.pos == 'VERB':
-                    is_verb_centric = False
+                    is_factual = False
                     break
 
                 if word.deprel == 'aux':
 
                     if main_word.deprel == 'root' and any([wd.head == main_word.id and wd.deprel == 'mark' for wd in parse]):
-                        is_verb_centric = False
+                        is_factual = False
                         break
 
                     if main_word.xpos == 'VBN':
                         # check if this VBN is valid (helping-verb-wise)
                         if not any([wd.head == main_word.id and wd.deprel == 'aux:pass' for wd in parse]) and word.lemma != 'have':
-                            is_verb_centric = False
+                            is_factual = False
                             break
 
                     elif main_word.xpos == 'VBG':
                         if not any([wd.head == main_word.id and wd.deprel == 'aux' for wd in parse]) and word.lemma != 'be':
-                            is_verb_centric = False
+                            is_factual = False
                             break
 
                     elif main_word.xpos == 'VB':
                         if any([wd.head == main_word.id and wd.deprel == 'aux:pass' for wd in parse]) or word.lemma in {'have', 'be'}:
-                            is_verb_centric = False
+                            is_factual = False
                             break
 
                     else:
-                        is_verb_centric = False
+                        is_factual = False
                         break
 
                     if any([wd.head == main_word.id and wd.deprel in {'compound'} for wd in parse]):
-                            is_verb_centric = False
+                            is_factual = False
                             break
 
                 if word.deprel == 'cop':
                     if main_word.pos in {'NOUN', 'PRON', 'PROPN', 'ADJ', 'NUM'}:
                         if not any([wd.head == word.head and wd.deprel in {'nsubj', 'mark'} for wd in parse]) and main_word.deprel != 'conj':
-                            is_verb_centric = False
+                            is_factual = False
                             break
                         else:
                             for wd in parse:
@@ -151,42 +151,37 @@ class Sentence:
                                     break
                             for w in parse:
                                 if w.head == wd.id and w.deprel == 'det' and w.lemma in {'what', 'which'}:
-                                    is_verb_centric = False
+                                    is_factual = False
                                     break
                     else:
-                        is_verb_centric = False
+                        is_factual = False
                         break
 
             elif word.xpos in {'VBD', 'VBZ', 'VBP'} and not any([wd.head == word.id and wd.pos == 'AUX' for wd in parse]):
 
-                if word.deprel not in {'root', 'ccomp', 'acl:relcl', 'conj'} or any([wd.head == word.id and wd.deprel in {'compound'} for wd in parse]):
-                    is_verb_centric = False
+                if word.deprel not in {'root', 'acl:relcl', 'ccomp', 'conj'} or any([wd.head == word.id and wd.deprel in {'compound'} for wd in parse]):
+                    is_factual = False
                     break
-
-                if word.deprel == 'advcl':
-                    if not any([wd.head == word.id and wd.deprel == 'mark' for wd in parse]):
-                        is_verb_centric = False
-                        break
                     
                 if sum([wd.head == word.id and wd.deprel in {'nsubj', 'csubj'} for wd in parse]) != 1:
                     if word.deprel == 'root':
-                        is_verb_centric = False
+                        is_factual = False
                         break
                     elif word.deprel == 'csubj':
-                        is_verb_centric = False
+                        is_factual = False
                         break
                     elif word.deprel == 'ccomp':
                         if not any([wd.head == word.id and wd.deprel == 'mark' and wd.text == 'to' for wd in parse]):
-                            is_verb_centric = False
+                            is_factual = False
                             break
                     elif word.deprel == 'acl:relcl':
-                        is_verb_centric = False
+                        is_factual = False
                         break
                     elif word.deprel == 'xcomp':
-                        is_verb_centric = False
+                        is_factual = False
                         break
                     elif word.deprel == 'advcl':
-                        is_verb_centric = False
+                        is_factual = False
                         break
                     elif word.deprel == 'acl':
                         continue
@@ -194,24 +189,24 @@ class Sentence:
                         continue
 
                 if any([wd.head == word.id and wd.deprel == 'csubj' for wd in parse]) and any([wd.lemma == 'what' and wd.upos == 'DET' for wd in parse]):
-                    is_verb_centric = False
+                    is_factual = False
                     break
 
             elif word.xpos in {'VBN', 'VBG'} and not any([wd.head == word.id and wd.pos == 'AUX' for wd in parse]):
 
-                if word.deprel not in {'amod', 'acl', 'advcl', 'conj'} or any([wd.head == word.id and wd.deprel in {'compound'} for wd in parse]):
-                    is_verb_centric = False
+                if word.deprel not in {'amod', 'acl', 'conj'} or any([wd.head == word.id and wd.deprel in {'compound'} for wd in parse]):
+                    is_factual = False
                     break
 
             elif word.xpos in {'VB'} and not any([wd.head == word.id and wd.pos == 'AUX' for wd in parse]):
 
-                if word.deprel not in {'acl', 'ccomp', 'xcomp', 'conj', 'csubj'} and '_' not in word.lemma or any([wd.head == word.id and wd.deprel in {'compound'} for wd in parse]):
-                    is_verb_centric = False
+                if word.deprel not in {'acl', 'conj'} and '_' not in word.lemma or any([wd.head == word.id and wd.deprel in {'compound'} for wd in parse]):
+                    is_factual = False
                     break
 
             elif word.deprel == 'root' and word.pos in {'NOUN', 'PRON', 'PROPN', 'ADJ'} and \
                 not any([wd.head == word.id and wd.deprel == 'cop' for wd in parse]):
-                    is_verb_centric = False
+                    is_factual = False
                     break
 
 
@@ -222,15 +217,15 @@ class Sentence:
                         word1.id < word2.head < word1.head < word2.id or \
                             word1.head < word2.id < word1.id < word2.head or \
                                 word1.id < word2.id < word1.head < word2.head:
-                        is_verb_centric = False
+                        is_factual = False
                         break
 
         for word in parse:
             if word.deprel == 'root' and word.upos == 'VERB' and not any([w.deprel in {'nsubj', 'csubj', 'nsubj:pass'} and w.head == word.id for w in parse]):
-                is_verb_centric = False
+                is_factual = False
                 break
 
-        return is_verb_centric
+        return is_factual
 
 
     def regenerate_doc_for_rejected_sentences(self):
