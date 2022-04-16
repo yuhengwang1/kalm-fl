@@ -4,7 +4,7 @@ Authors: Yuheng Wang, Giorgian Borca-Tasciuc, Nikhil Goel, Paul Fodor, Michael K
 The KALM<sup>FL</sup> system allows knowledge authoring with the aim of endowing domain experts with tools that would allow them to translate their knowledge into logic by means of Factual Language. KALM<sup>FL</sup> extends KALM (https://github.com/tiantiangao7/kalm) and its querying extension KALM-QA (https://github.com/tiantiangao7/kalm-qa) from the Controlled Natural Language supported by Attempto in the direction of general parsers.
 
 # Academic papers (high-level description of the system)
-1. Knowledge Authoring with Factual English. Yuheng Wang, Giorgian Borca-Tasciuc, Nikhil Goel, Paul Fodor and Michael Kifer.
+1. Knowledge Authoring with Factual English. Yuheng Wang, Giorgian Borca-Tasciuc, Nikhil Goel, Paul Fodor and Michael Kifer. International Conference on Logic Programming (ICLP) 2022.
 https://github.com/yuhengwang1/kalm-fl/blob/main/KALMFL_ICLP2022.pdf
 
 # Dependencies
